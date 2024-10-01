@@ -44,7 +44,7 @@ export default function NavigationBar({ username }) {
                                 </a>
                             )) : null
                 }
-                <div className="cursor-pointer flex items-center space-x-3 p-3" onClick={() => handleLogout}>
+                <div className="cursor-pointer flex items-center space-x-3 p-3 text-black" onClick={() => handleLogout}>
                     <TextCursorInput />
                     <p>Logout</p>
                 </div>
