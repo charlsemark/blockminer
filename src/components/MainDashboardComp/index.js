@@ -17,11 +17,11 @@ export default function MainDashboardComponent({ username, accountUpgrade, balan
                 </div>
                 {accountUpgrade === 'isNeeded' && (
                     <div className="flex items-center justify-between gap-6 px-3 pt-1">
-                        <p className="text-sm">Your account needs to be upgraded, please contact your admin <a className="underline text-[#ff9100] cursor-pointer" href="mailto:support@blockchainminers.online">via mail</a></p>
+                        <p className="text-sm">Your account needs to be upgraded, please contact your admin <a className="underline text-[#BB9533] cursor-pointer" href="mailto:support@blockchainminers.online">via mail</a></p>
                     </div>
                 )}
                 <div className="flex flex-col items-start gap-3 md:flex-row space-x-8">
-                    <div className="bg-gradient-to-r from-[#ff9100] to-[#1f2937] h-auto flex flex-col gap-3 justify-center p-4 rounded-md w-full text-white text-xl">
+                    <div className="bg-gradient-to-r from-[#BB9533] to-[#1f2937] h-auto flex flex-col gap-3 justify-center p-4 rounded-md w-full text-white text-xl">
 
 
                         <div className="text-white flex flex-col items-start justify-between pr-2 md:pr-0 max-w-md w-full">

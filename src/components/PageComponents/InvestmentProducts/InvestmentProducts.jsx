@@ -145,7 +145,7 @@ console.log(allPlans)
       <div className="mx-auto flex flex-col items-center bg-black text-white justify-center gap-10 py-20  w-full">
         <div className="flex flex-col md:flex-row gap-6 md:gap-12 divide-x-2 divide-white md:divide-x-0">
           <div className="flex flex-col items-center gap-6 px-4">
-            <h2 className="font-bold text-[#ff9100] text-2xl md:text-3xl">
+            <h2 className="font-bold text-[#BB9533] text-2xl md:text-3xl">
               Investment products
             </h2>
             <p className="text-md text-white leading-6 text-center md:max-w-[200px]">
@@ -156,7 +156,7 @@ console.log(allPlans)
           <hr className="hidden" />
           <div className="grid grid-cols-3 md:grid-cols-3 items-center gap-6 px-3">
             <div className="flex flex-col items-center gap-2 text-center">
-              <span className="bg-[#ff9100] p-6 rounded-full">
+              <span className="bg-[#BB9533] p-6 rounded-full">
                 <DollarSignIcon className="text-[#fff] text-xl" />
               </span>
               <p className="text-white text-md md:text-lg font-semibold uppercase">
@@ -164,7 +164,7 @@ console.log(allPlans)
               </p>
             </div>
             <div className="flex flex-col items-center gap-2 text-center">
-              <span className="bg-[#ff9100] p-6 rounded-full">
+              <span className="bg-[#BB9533] p-6 rounded-full">
                 <BitcoinIcon className="text-[#fff] text-xl" />
               </span>
               <p className="text-white text-md md:text-lg font-semibold uppercase">
@@ -172,7 +172,7 @@ console.log(allPlans)
               </p>
             </div>
             <div className="flex flex-col items-center gap-2 text-center">
-              <span className="bg-[#ff9100] p-6 rounded-full">
+              <span className="bg-[#BB9533] p-6 rounded-full">
                 <BarChart2Icon className="text-[#fff] text-xl" />
               </span>
               <p className="text-white text-md md:text-lg font-semibold uppercase">
@@ -180,7 +180,7 @@ console.log(allPlans)
               </p>
             </div>
             <div className="flex flex-col items-center gap-2 text-center">
-              <span className="bg-[#ff9100] p-6 rounded-full">
+              <span className="bg-[#BB9533] p-6 rounded-full">
                 <TbChartCandleFilled className="text-[#fff] text-xl" />
               </span>
               <p className="text-white text-md md:text-lg font-semibold uppercase">
@@ -188,7 +188,7 @@ console.log(allPlans)
               </p>
             </div>
             <div className="flex flex-col items-center gap-2 text-center">
-              <span className="bg-[#ff9100] p-6 rounded-full">
+              <span className="bg-[#BB9533] p-6 rounded-full">
                 <LeafIcon className="text-[#fff] text-xl" />
               </span>
               <p className="text-white text-md md:text-lg font-semibold uppercase">
@@ -196,7 +196,7 @@ console.log(allPlans)
               </p>
             </div>
             <div className="flex flex-col items-center gap-2 text-center">
-              <span className="bg-[#ff9100] p-6 rounded-full">
+              <span className="bg-[#BB9533] p-6 rounded-full">
                 <BoxIcon className="text-[#fff] text-xl" />
               </span>
               <p className="text-white text-md md:text-lg font-semibold uppercase">
@@ -207,7 +207,7 @@ console.log(allPlans)
         </div>
         <div className="flex flex-col gap-6">
           <div className="flex flex-col items-center gap-3 pt-4">
-            <h2 className="font-bold text-[#ff9100] text-2xl md:text-3xl">
+            <h2 className="font-bold text-[#BB9533] text-2xl md:text-3xl">
               An account for everyone
             </h2>
             <p className="text-md text-white leading-6 text-center max-w-4xl px-4">
@@ -224,9 +224,9 @@ console.log(allPlans)
               {allPlans?.map((plan, idx) => (
                 <div
                   key={idx}
-                  className={`flex-shrink-0 w-[280px] bg-transparent rounded-xl border-[0.6px] border-[#ff9100] h-auto flex flex-col items-center text-white ml-2 mr-2`}
+                  className={`flex-shrink-0 w-[280px] bg-transparent rounded-xl border-[0.6px] border-[#BB9533] h-auto flex flex-col items-center text-white ml-2 mr-2`}
                 >
-                  <div className="w-full py-6 bg-[#ff9100] text-white text-center text-xl font-bold rounded-t-xl">
+                  <div className="w-full py-6 bg-[#BB9533] text-white text-center text-xl font-bold rounded-t-xl">
                     {plan.planName}
                   </div>
                   <div className="py-3">
@@ -256,7 +256,7 @@ console.log(allPlans)
                   </div>
                   <button
                     onClick={handleInvestNow}
-                    className="my-3 inline-block bg-[#ff9100] py-3 px-5 text-base font-medium tracking-wide text-[#fff] rounded-md"
+                    className="my-3 inline-block bg-[#BB9533] py-3 px-5 text-base font-medium tracking-wide text-[#fff] rounded-md"
                   >
                     Invest Now
                   </button>
@@ -279,7 +279,7 @@ console.log(allPlans)
         <div className="bg-[#07090e] py-12 w-full">
           <div className="container mx-auto px-6 pt-10">
             <div className="flex flex-col gap-5">
-              <h2 className="font-bold text-2xl md:text-3xl text-[#ff9100]">
+              <h2 className="font-bold text-2xl md:text-3xl text-[#BB9533]">
                 WE ARE COMMITTED TO OFFERING HIGH-PERFORMING INVESTMENT PACKAGES
                 TO OUR INVESTORS.
               </h2>
@@ -329,7 +329,7 @@ console.log(allPlans)
         <div className="container px-4">
           <div className="flex flex-col md:flex-row items-center gap-8 md:justify-between">
             <div className="space-y-4 mt-2">
-              <h1 className="font-semibold text-xl leading-6 text-center text-[#ff9100]">
+              <h1 className="font-semibold text-xl leading-6 text-center text-[#BB9533]">
                 ABOUT Blockchainminers
               </h1>
               <p className="">
@@ -354,7 +354,7 @@ console.log(allPlans)
               </p>
             </div>
             <div className="space-y-4 mt-2">
-              <h1 className="font-semibold text-xl leading-6 text-center text-[#ff9100]">
+              <h1 className="font-semibold text-xl leading-6 text-center text-[#BB9533]">
                 OUR VISION
               </h1>
               <p className="">
@@ -403,7 +403,7 @@ console.log(allPlans)
               
             </div>
             <div className="space-y-4 mt-3">
-              <h1 className="font-semibold text-xl leading-6 text-[#ff9100]">
+              <h1 className="font-semibold text-xl leading-6 text-[#BB9533]">
                 THE REVOLUTION IN ASSET INVESTMENTS MANAGEMENT
               </h1>
               <div className="space-y-6">

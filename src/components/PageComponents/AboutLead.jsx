@@ -16,7 +16,7 @@ const AboutLead = () => {
           data-aos="fade-right"
           data-aos-delay="100"
         >
-          <span className="bg-[#ff9100] p-6 rounded-full">
+          <span className="bg-[#BB9533] p-6 rounded-full">
             <TrophyIcon className="text-[#fff] text-xl" />
           </span>
           <p className="text-white text-lg">Blockchainminers</p>

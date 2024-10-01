@@ -8,7 +8,7 @@ export default function Footer() {
                     <div className="my-6">
                         <a href="/" className="flex items-center">
                             <img src="/logo.webp" className="h-10 w-auto mr-1" alt=" Logo" />
-                            <span className="self-center text-2xl font-semibold whitespace-nowrap text-gray-800">Blockchainminers</span>
+                            {/* <span className="self-center text-2xl font-semibold whitespace-nowrap text-gray-800">Blockchainminers</span> */}
                         </a>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
