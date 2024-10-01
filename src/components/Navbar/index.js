@@ -46,19 +46,19 @@ function NavItems({ isModalView = false }) {
                         :
                         isAdminView === "admin" ?
                             adminNavOptions.map((item) => (
-                                <a className="cursor-pointer block py-2 pl-3 pr-4 text-white md:p-0 md:text-white" key={item.id} href={item.path}>
+                                <a className="cursor-pointer block py-2 pl-3 pr-4 text-[#BB9533] md:p-0" key={item.id} href={item.path}>
                                     {item.label}
                                 </a>
                             ))
                             :
                             navOptions.map((item) => (
-                                <a className="cursor-pointer block py-2 pl-3 pr-4 text-white md:p-0 md:text-white" key={item.id} href={item.path}>
+                                <a className="cursor-pointer block py-2 pl-3 pr-4 text-[#BB9533] md:p-0" key={item.id} href={item.path}>
                                     {item.label}
                                 </a>
                             ))
                 }
                 {
-                    isAuthUser ? <button onClick={handleLogout} className="mt-1.5 inline-block bg-[#BB9533] py-3 px-5 text-sm font-medium tracking-wide text-[#fff] rounded-md">Logout</button> : <button onClick={() => router.push('/login')} className="mt-1.5 inline-block bg-white py-3 px-5 text-sm font-medium tracking-wide text-[#BB9533] rounded-md">Login</button>
+                    isAuthUser ? <button onClick={handleLogout} className="mt-1.5 inline-block bg-[#BB9533] py-3 px-5 text-sm font-medium tracking-wide text-[#fff] rounded-md">Logout</button> : <button onClick={() => router.push('/login')} className="mt-1.5 inline-block bg-[#BB9533] py-3 px-5 text-sm font-medium tracking-wide text-[#fff] rounded-md">Login</button>
                 }
             </div>
         </div>
