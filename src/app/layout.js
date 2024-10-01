@@ -12,7 +12,7 @@ export const metadata = {
   title: 'blockchainminers - Built for investors interested in high yields, stable returns and also high liquidity.',
   description: 'Invest with confidence on worlds leading asset management and investment platform.',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.png',
   },
 };
 
