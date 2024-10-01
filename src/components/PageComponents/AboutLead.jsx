@@ -19,7 +19,7 @@ const AboutLead = () => {
           <span className="bg-[#ff9100] p-6 rounded-full">
             <TrophyIcon className="text-[#fff] text-xl" />
           </span>
-          <p className="text-white text-lg">Mutual Trade Investment</p>
+          <p className="text-white text-lg">Blockchainminers</p>
         </div>
         <div
           className="flex flex-col text-center items-center gap-2 px-4"

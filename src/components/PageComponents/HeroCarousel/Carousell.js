@@ -6,7 +6,7 @@ const slidesData = [
   {
     id: 1,
     title: 'INVEST AND EARN WITH US',
-    desc: `Invest with confidence on world's mutual trade management and investment platform.
+    desc: `Invest with confidence on world's Blockchainminers management and investment platform.
     Your single point of access to professional asset investment and management solutions.
     Built for investors interested in stable returns and high liquidity.`,
     link1: '/register',
@@ -28,7 +28,7 @@ const slidesData = [
   {
     id: 3,
     title: 'HOW ABOUT EARNING MORE BY CRYPTO TRADING?',
-    desc: `Welcome to Mutual Trade Investment! Smart Cryptocurrency trading on perfect conditions with Segregated Accounts and Rapid Execution with no re-quotes.`,
+    desc: `Welcome to Blockchainminers! Smart Cryptocurrency trading on perfect conditions with Segregated Accounts and Rapid Execution with no re-quotes.`,
     link1: '/register',
     link2: '/login',
     text1: 'Register',

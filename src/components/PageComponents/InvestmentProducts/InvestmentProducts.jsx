@@ -333,7 +333,7 @@ console.log(allPlans)
                 ABOUT Blockchainminers
               </h1>
               <p className="">
-                Mutual Trade Investment We are crypto trading investment organization.
+                Blockchainminers We are crypto trading investment organization.
                 With our years of experience in trading on the financial market
                 and with the help of our machines and experts operators have
                 successfully built sustainable income for our partners and
@@ -344,7 +344,7 @@ console.log(allPlans)
                 investors.
               </p>
               <p>
-                Mutual Trade Investment brings together the best aspects of crypto and
+                Blockchainminers brings together the best aspects of crypto and
                 the real economy in order to get to a qualitatively new
                 level-composite economy. This means a simple integration of
                 rules and customs of existing industries and segments of global
@@ -370,7 +370,7 @@ console.log(allPlans)
                 and fine print.
               </p>
               <p>
-                At Mutual Trade Investment we understand that decentralized
+                At Blockchainminers we understand that decentralized
                 cryptocurrencies like Bitcoin, Ethereum, Dogecoin, litecoin, and
                 Tron will change the way the world views and uses Crypto Assets
                 and Portfolios so, we are spearheading a new financial system
@@ -416,7 +416,7 @@ console.log(allPlans)
                 <p>
                   We&apos;re proud to be an asset management company whose
                   culture is driven by strong values and a long-term vision. At
-                  Mutual Trade Investment Investments, our vision, mission and core
+                  Blockchainminers Investments, our vision, mission and core
                   values serve as the catalyst in our relations with our
                   clients, employees, shareholders and in the communities in
                   which we live and work. They are our guiding compass in our
